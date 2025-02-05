@@ -2,96 +2,138 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yixuan Li
+    - name: Email
+      value: li.phd@outlook.com
+    - name: LinkedIn
+      value: www.linkedin.com/in/yixuan-li-phd
+    - name: Research Interests
+      value: LLMs, Programming Languages, Automated Reasoning, Verification, Strong Technical Communication
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD (Fully-Funded Scholarship)
+      institution: The University of Edinburgh, UK
+      year: 2022 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Supervisor: Dr. Elizabeth Polgreen & Dr. Michael O'Boyle
+        - Research in formal methods, automated reasoning, and programming languages
+    - title: MSc (Distinction Award)
+      institution: University of Bristol, UK
+      year: 2020 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Image and Video Communications and Signal Processing
+    - title: BEng
+      institution: Xidian University, China
+      year: 2014 - 2018
+      description:
+        - Electronic Information Engineering
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Internship
+      institution: Heriot-Watt University
+      year: Nov 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Focused on LLMs for verification research within the EPSRC-funded project AISEC
+        - Led by Professor Ekaterina Komendantskaya
+    - title: Teaching Assistant
+      institution: The University of Edinburgh
+      year: Jan 2024 - Oct 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Advised and guided students in System Design Project (INFR09032)
+        - Provided support in robotics software and hardware development
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Papers
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Unlocking Hardware Verification with Oracle Guided Synthesis
+      year: Under Review
+      authors: Leiqi Ye, Yixuan Li, Jianyi Cheng, Elizabeth Polgreen
+    - title: Guided Tensor Lifting
+      year: Under Review
+      authors: Yixuan Li, José Wesley De Souza Magalhães, Alexander Brauckmann, Michael F. P. O'Boyle, Elizabeth Polgreen
+      description:
+        - Developed STAGG, a framework combining LLMs and enumerative synthesis
+        - Achieved 98% lifting accuracy, outperforming state-of-the-art tool
+        - STAGG also reduces the average solving time to 3.32 seconds compared to 23.05 seconds for state-of-the-art
+    - title: Online Prompt and Solver Selection for Program Synthesis
+      year: AAAI 2025
+      authors: Yixuan Li, Lewis Frampton, Federico Mora, Elizabeth Polgreen
+      description:
+        - Framed prompt selection as a multi-armed bandit problem
+    - title: Guiding Enumerative Program Synthesis with Large Language Models
+      year: CAV 2024
+      authors: Yixuan Li, Julian Parsert, Elizabeth Polgreen
+      description:
+        - Improved enumerative synthesis success rates by 18%
+    - title: Genetic Algorithms for Searching a Matrix of Metagrammars for Synthesis
+      year: SYNT 2023
+      authors: Yixuan Li, Federico Mora, Elizabeth Polgreen, Sanjit A. Seshia
 
-- title: Honors and Awards
+- title: Talks
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Program Synthesis with LLMs
+      institution: Programming Languages Research Group Seminar, University of Bristol
+      year: Nov 2024
+    - title: Guiding Enumerative Program Synthesis with Large Language Models
+      institution: Heriot-Watt LAIV AI Verification Seminar
+      year: May 2024
+    - title: Guiding Enumerative Program Synthesis with Large Language Models
+      institution: EuroProofNet, Austria
+      year: Mar 2024
+    - title: Genetic Algorithms for Searching a Matrix of Metagrammars for Synthesis
+      institution: Workshop on Synthesis, France
+      year: Jul 2023
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Programming: Python, MATLAB, Java, C, Assembly, SystemVerilog Assertions, LaTeX
+    - Electronics: Filter Design, Image/Video Processing, Information Theory, Communication Systems
+    - Languages: Chinese (Native), English (Professional), French, Japanese
+
+- title: Service
+  type: time_table
+  contents:
+    - title: Reviewer
+      institution: TACAS 2024
+      year: 2024
+    - title: Student President
+      institution: Association for Science and Technology, Xidian University
+      year: 2015 - 2016
+    - title: Student Volunteer Team Leader
+      institution: Shaanxi Xingzhi Charity Association
+      year: 2016
+
+- title: Scholarships & Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - CAV 2024 VMW Scholarship
+    - year: 2021 - 2025
+      items:
+        - Fully Funded PhD Scholarship, The University of Edinburgh
+    - year: 2016
+      items:
+        - Third Grade Scholarship (Top 15%), Xidian University
+    - year: 2015
+      items:
+        - Excellent Chairman of Association for Science and Technology
+        - Tech Star (Top 5%), Xidian University
+        - Xidian Science and Technology Scholarship (Top 1%)
+    - year: 2014
+      items:
+        - Outstanding Science and Technology Committee Member, Xidian University
+
+- title: References
+  type: map
+  contents:
+    - name: Dr. Elizabeth Polgreen
+      value: Assistant Professor, The University of Edinburgh
+    - name: Dr. Michael O'Boyle
+      value: Professor, The University of Edinburgh
