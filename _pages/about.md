@@ -29,7 +29,7 @@ announcements:
 
 I am a Ph.D. student in Computer Science at the [University of Edinburgh](https://informatics.ed.ac.uk/), where I am fortunate to be advised by the amazing [Dr. Elizabeth Polgreen](https://scholar.google.com/citations?user=wFYhUkIAAAAJ&hl=en) and funded by the School of Informatics. Before Edinburgh, I completed an M.Sc. (with Distinction) in Image and Video Communications and Signal Processing at the [University of Bristol](https://www.bristol.ac.uk/unit-programme-catalogue/RouteStructure.jsa?byCohort=N&ayrCode=20%2F21&selectedCatalogue=PROGRAMME&orgCode=EENG&programmeCode=4EENG005T). Prior to that, I earned a B.Eng. in Electronic Engineering from [Xidian University](https://en.xidian.edu.cn/).  
 
-I broadly research techniques at the intersection of **<span style="color:	#0072BB;">large language models (LLMs)</span>**, **<span style="color:	#0072BB;">formal methods</span>**, and **<span style="color:	#0072BB;">programming languages</span>**. My focus is on developing novel techniques, applications and theory that makes user-friendly **<span style="color:	#0072BB;">automated reasoning</span>** frameworks. 
+I broadly research techniques at the intersection of **<span style="color:	#0072BB;">large language models (LLMs)</span>**, **<span style="color:	#0072BB;">formal methods</span>**, and **<span style="color:	#0072BB;">programming languages</span>**. My focus is on developing novel techniques, applications, and theory that makes user-friendly **<span style="color:	#0072BB;">automated reasoning</span>** frameworks. 
 
 
-🚀 **<span style="color:	#FE6F5E;">I am on the academic job market this year!</span>** 
+🚀 **<span style="color:	#FE6F5E;">I am on the job market!</span>** 
