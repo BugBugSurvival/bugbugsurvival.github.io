@@ -13,122 +13,147 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD (Fully-Funded Scholarship)
+    - title: PhD in Computer Science (Fully-Funded Scholarship)
       institution: The University of Edinburgh, UK
       year: 2022 - 2025
       description:
-        - Supervisor: Dr. Elizabeth Polgreen & Dr. Michael O'Boyle
+        - Supervisors - Dr. Elizabeth Polgreen & Professor Michael O'Boyle
+        - Thesis - Large Language Model Enabled Program Synthesis
         - Research in formal methods, automated reasoning, and programming languages
-    - title: MSc (Distinction Award)
+    - title: MSc in Image and Video Communications and Signal Processing
       institution: University of Bristol, UK
       year: 2020 - 2021
       description:
-        - Image and Video Communications and Signal Processing
-    - title: BEng
+        - Distinction (GPA 76/100)
+    - title: BEng in Electronic Information
       institution: Xidian University, China
       year: 2014 - 2018
-      description:
-        - Electronic Information Engineering
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Internship
-      institution: Heriot-Watt University
-      year: Nov 2024 - Present
+    - title: Research Intern
+      institution: Huawei R&D UK, Edinburgh
+      year: Sep 2025 - Dec 2025
       description:
-        - Focused on LLMs for verification research within the EPSRC-funded project AISEC
-        - Led by Professor Ekaterina Komendantskaya
+        - Contributed to open-source projects including an AI browser, LLM-based code analysis, and code generation tools
+    - title: Research Assistant
+      institution: Heriot-Watt University, Edinburgh
+      year: Nov 2024 - Dec 2024
+      description:
+        - Explored LLM-assisted theorem proving within formal verification
     - title: Teaching Assistant
       institution: The University of Edinburgh
-      year: Jan 2024 - Oct 2024
+      year: Jan 2024 - Jun 2024
       description:
-        - Advised and guided students in System Design Project (INFR09032)
-        - Provided support in robotics software and hardware development
+        - System Design Project (INFR09032)
+        - Supervised undergraduate teams building end-to-end robotic systems, from software design and embedded programming to physical prototyping and full robotic deployment
 
-- title: Papers
+- title: Publications
   type: time_table
   contents:
-    - title: Unlocking Hardware Verification with Oracle Guided Synthesis
-      year: Under Review
-      authors: Leiqi Ye, Yixuan Li, Jianyi Cheng, Elizabeth Polgreen
     - title: Guided Tensor Lifting
-      year: Under Review
-      authors: Yixuan Li, José Wesley De Souza Magalhães, Alexander Brauckmann, Michael F. P. O'Boyle, Elizabeth Polgreen
+      year: PLDI 2025
+      authors: Yixuan Li, José Wesley de Souza Magalhães, Alexander Brauckmann, Michael F. P. O'Boyle, Elizabeth Polgreen
       description:
-        - Developed STAGG, a framework combining LLMs and enumerative synthesis
-        - Achieved 98% lifting accuracy, outperforming state-of-the-art tool
-        - STAGG also reduces the average solving time to 3.32 seconds compared to 23.05 seconds for state-of-the-art
-    - title: Online Prompt and Solver Selection for Program Synthesis
+        - Proc. ACM Program. Lang. (PLDI), Volume 9, PLDI, Article 227, 2025, pp. 1984–2006
+        - DOI 10.1145/3729330
+    - title: Online Prompt Selection for Program Synthesis
       year: AAAI 2025
       authors: Yixuan Li, Lewis Frampton, Federico Mora, Elizabeth Polgreen
       description:
-        - Framed prompt selection as a multi-armed bandit problem
+        - Proceedings of the AAAI Conference on Artificial Intelligence, 39(11), 2025, pp. 11282–11289
+        - DOI 10.1609/aaai.v39i11.33227
+    - title: HyGenar - An LLM-Driven Hybrid Genetic Algorithm for Few-Shot Grammar Generation
+      year: ACL 2025 (Findings)
+      authors: Weizhi Tang, Yixuan Li, Chris Sypherd, Elizabeth Polgreen, Vaishak Belle
+      description:
+        - Findings of the Association for Computational Linguistics ACL 2025, Vienna, Austria, pp. 13640–13665
+        - DOI 10.18653/v1/2025.findings-acl.701
+    - title: Unlocking Hardware Verification with Oracle Guided Synthesis
+      year: FMCAD 2025
+      authors: Leiqi Ye, Yixuan Li, Guy Frankel, Jianyi Cheng, Elizabeth Polgreen
+      description:
+        - Formal Methods in Computer-Aided Design (FMCAD), 2025, pp. 235–245
+        - DOI 10.34727/2025/isbn.978-3-85448-084-6_30
     - title: Guiding Enumerative Program Synthesis with Large Language Models
       year: CAV 2024
       authors: Yixuan Li, Julian Parsert, Elizabeth Polgreen
       description:
-        - Improved enumerative synthesis success rates by 18%
+        - DOI 10.1007/978-3-031-65630-9_15
     - title: Genetic Algorithms for Searching a Matrix of Metagrammars for Synthesis
       year: SYNT 2023
       authors: Yixuan Li, Federico Mora, Elizabeth Polgreen, Sanjit A. Seshia
+      description:
+        - arXiv 10.48550/arXiv.2306.00521
+    - title: The Similarity Control Problem with Required Events
+      year: Under Review
+      authors: Yu Wang, Zhaohui Zhu, Robert van Glabbeek, Jinjin Zhang, Yixuan Li
+      description:
+        - IEEE Transactions on Automatic Control (TACON), under review, 2025
 
-- title: Talks
+- title: Talks and Presentations
   type: time_table
   contents:
-    - title: Program Synthesis with LLMs
-      institution: Programming Languages Research Group Seminar, University of Bristol
+    - title: European OpenHarmony Technical Forum
+      institution: Edinburgh, UK
+      year: Dec 2025
+    - title: Compilers Seminar
+      institution: University of Edinburgh, UK
+      year: Sep 2025
+    - title: PLDI Conference
+      institution: Seoul, Korea
+      year: Jun 2025
+    - title: AAAI Conference
+      institution: Philadelphia, USA
+      year: Feb 2025
+    - title: Programming Languages Seminar
+      institution: University of Bristol, UK
       year: Nov 2024
-    - title: Guiding Enumerative Program Synthesis with Large Language Models
-      institution: Heriot-Watt LAIV AI Verification Seminar
+    - title: Compilers Seminar
+      institution: University of Edinburgh, UK
+      year: Oct 2024
+    - title: LAIV AI Verification Seminar
+      institution: Heriot-Watt University, UK
       year: May 2024
-    - title: Guiding Enumerative Program Synthesis with Large Language Models
-      institution: EuroProofNet, Austria
+    - title: EuroProofNet Workshop on Machine Learning in Proofs
+      institution: Vienna, Austria
       year: Mar 2024
-    - title: Genetic Algorithms for Searching a Matrix of Metagrammars for Synthesis
-      institution: Workshop on Synthesis, France
+    - title: SYNT Workshop
+      institution: Paris, France
       year: Jul 2023
 
 - title: Skills
   type: list
   contents:
-    - Programming: Python, MATLAB, Java, C, Assembly, SystemVerilog Assertions, LaTeX
-    - Electronics: Filter Design, Image/Video Processing, Information Theory, Communication Systems
-    - Languages: Chinese (Native), English (Professional), French, Japanese
+    - <b>Programming</b> - Python, MATLAB, C/C++, Java, JavaScript
+    - <b>Languages</b> - English, Mandarin, French, Japanese
 
 - title: Service
   type: time_table
   contents:
+    - title: Co-organizer
+      institution: EuroProofNet Workshop on Theorem Proving in the Age of LLMs
+      year: 2025
     - title: Reviewer
-      institution: TACAS 2024
-      year: 2024
-    - title: Student President
-      institution: Association for Science and Technology, Xidian University
-      year: 2015 - 2016
-    - title: Student Volunteer Team Leader
-      institution: Shaanxi Xingzhi Charity Association
-      year: 2016
+      institution: International Conference on Tools and Algorithms for the Construction and Analysis of Systems (TACAS)
+      year: 2025
+    - title: Reviewer
+      institution: EuroProofNet Workshop on Theorem Proving in the Age of LLMs
+      year: 2025
 
 - title: Scholarships & Awards
   type: time_table
   contents:
-    - year: 2024
-      items:
-        - CAV 2024 VMW Scholarship
-    - year: 2021 - 2025
+    - year: 2022 - 2025
       items:
         - Fully Funded PhD Scholarship, The University of Edinburgh
+    - year: 2024
+      items:
+        - Verification Mentoring Workshop (VMW) Scholarship, CAV Conference
     - year: 2016
       items:
-        - Third Grade Scholarship (Top 15%), Xidian University
-    - year: 2015
-      items:
-        - Excellent Chairman of Association for Science and Technology
-        - Tech Star (Top 5%), Xidian University
-        - Xidian Science and Technology Scholarship (Top 1%)
-    - year: 2014
-      items:
-        - Outstanding Science and Technology Committee Member, Xidian University
+        - University Scholarship, Xidian University
 
 - title: References
   type: map

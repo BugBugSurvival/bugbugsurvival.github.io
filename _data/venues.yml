@@ -1,9 +1,34 @@
+# Apple-style color palette for all venues
+
+"ACL '25 findings":
+  color: "#5856D6"
+
+"FMCAD '25":
+  color: "#34C759"
+
+"PLDI '25":
+  color: "#007AFF"
+
+"AAAI '25":
+  color: "#FF9500"
+
+"CAV '24":
+  color: "#FF2D55"
+
+"SYNT @CAV '23":
+  color: "#AF52DE"
+
+"Under Review":
+  color: "#8E8E93"
+
+# Legacy venues (kept for compatibility)
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+  color: "#007AFF"
 
 "PhysRev":
   url: https://journals.aps.org/
+  color: "#007AFF"
 
 "Vision":
-  color: "#009f36"
+  color: "#34C759"
